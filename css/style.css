@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Poppins", sans-serif;
+}
+
+.form-section{
+    width: 100%;
+    background-color: #f7f7f7;
+}
+
+.container{
+    width: 1140px;
+    height: 100vh;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-box{
+    width: 900px;
+    background-color: #ffffff;
+    display: flex;
+}
+
+.left-side,
+.right-side{
+    flex-basis: 50%;
+}
+
+.left-side{
+    background: url(../images/contact-img.jpg) center center no-repeat;
+    background-size: cover;
+}
+.right-side{
+    padding: 50px;
+}
+
+.right-side h1{
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+input,
+select,
+textarea{
+    width: 100%;
+    padding: 10px 5px;
+    margin: 5px 0;
+}
+
+.name input{
+    width: 47.9%;
+}
+.name .first-name{
+    margin-right: 10px;
+
+}   
+
+.condition input{
+    width: auto;
+}
+
+input::placeholder,
+textarea::placeholder,
+select,
+.dob input [type="date"]{
+    font-family: "Poppins", sans-serif;
+}
